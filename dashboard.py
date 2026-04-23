@@ -208,7 +208,7 @@ try:
     df_raw["Classificação"] = df_raw.apply(classificar_linha, axis=1)
 
 except FileNotFoundError:
-    st.error("Arquivo 'Avaliação.csv' não encontrado. Rode o extrator_leanpel.py primeiro.")
+    st.error("Arquivo 'Avaliação.csv' não encontrado.")
     st.stop()
 except Exception as e:
     st.error(f"Erro ao carregar dados: {e}")
