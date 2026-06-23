@@ -149,7 +149,7 @@ def get_kamui_context(df):
 def responder_kamui(pergunta, ctx):
     """Responde perguntas usando a IA Groq"""
     try:
- prompt = f"""
+        prompt = f"""
         Seu nome é Kamui, você é uma IA de análise lógica sênior criada exclusivamente para analisar dados da loja "Leanpel".
         
         Missão:
